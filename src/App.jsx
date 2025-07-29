@@ -1,12 +1,17 @@
 import React from 'react'
 import Header from "./components/Header"
 import About from "./components/About"
+import AnimatedItem from "./components/AnimatedItem"
 
 const App = () => {
   return (
     <>
-      <Header />
-      <About />
+      <AnimatedItem>
+        <Header /> 
+      </AnimatedItem>
+      <AnimatedItem>
+        <About /> 
+      </AnimatedItem>
     </>
   )
 }
