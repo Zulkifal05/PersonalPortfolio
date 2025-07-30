@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { ProjectsArray } from '../../public/Projects'
 import ProjectCard from './ProjectCard'
 
-const Projects = () => {
+const Projects = ({ProjectsReference}) => {
   let [selectValue,setSelectValue] = useState("All");
   let [projects,setProjects] = useState(ProjectsArray);
   let [projectsToShow,setProjectsToShow] = useState(ProjectsArray);
@@ -21,7 +21,7 @@ const Projects = () => {
   }
 
   return (
-    <div className='mt-5'>
+    <div ref={ProjectsReference}  className='mt-5'>
       <h1 className='text-green-500 font-bold text-center text-4xl'>Projects</h1>
       <div className='flex items-center justify-center mt-5'>
         <select 
