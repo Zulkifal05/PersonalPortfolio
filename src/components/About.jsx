@@ -4,7 +4,7 @@ import CppPic from "../assets/CppPic.png"
 import CSSPic from "../assets/CSSPic.png"
 import JavascriptPic from "../assets/JavascriptPic.png"
 import ReactPic from "../assets/ReactPic.png"
-import TailwindPIC from "../assets/TailwindPIC.png"
+import TailwindPIC from "../assets/TailwindPic.png"
 import HTMLPic from "../assets/HTMLPic.png"
 
 
