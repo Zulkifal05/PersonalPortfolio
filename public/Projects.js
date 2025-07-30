@@ -1,4 +1,4 @@
-export const Projects = [
+export const ProjectsArray = [
     {
         title : "Book Order Store",
         Description : "A console based book ordering application built with C++. This was my BSCS first semester Programming Fundamental's final project.",
@@ -6,13 +6,13 @@ export const Projects = [
         Type : "C++"
     },
     {
-        title : "Railway Booking System",
+        title : "Railway Booking",
         Description : "A console based C++ application built using OOP concepts. This application uses File Handling for storing , updating & getting data.",
         GithubLink : "https://github.com/Zulkifal05/Railway-Booking-System.git",
         Type : "C++"
     },
     {
-        title : "Tic Tac Toe Game",
+        title : "Tic Tac Toe",
         Description : "This game is built in HTML, CSS & JAVASCRIPT. It is my first project including Javascript But not the last. This strenghtened my JAVASCRIPT foundations.",
         GithubLink : "https://github.com/Zulkifal05/Tic-Tac-Toe-Game.git",
         Type : "Javascript"
@@ -39,6 +39,6 @@ export const Projects = [
         title : "Blogify",
         Description : "Blogify is a Web App for Writing Blogs whose frontend is built in React JS & Appwrite is used as a backend service.",
         GithubLink : "https://github.com/Zulkifal05/BlogApp.git",
-        Type : "React Js"
+        Type : "React"
     }
 ]
