@@ -4,7 +4,7 @@ const Skills = ({SkillsReference}) => {
   return (
     <div 
     ref={SkillsReference}
-    className='w-full h-[50vh] mt-5 flex items-center justify-center'>
+    className='w-full h-[50vh] mt-13 flex items-center justify-center'>
       <div className='w-[30%] h-[97%] rounded-2xl p-5 min-w-[300px] border-2 border-green-500'>
         <h1 className='text-center font-bold text-green-500 text-3xl'>Skills</h1>
         <div className='flex flex-col justify-evenly mt-5'>

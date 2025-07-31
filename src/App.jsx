@@ -5,6 +5,7 @@ import AnimatedItem from "./components/AnimatedItem"
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from "./components/Contact"
+import Socials from './components/Socials'
 
 const App = () => {
   let AboutRef = useRef();
@@ -25,6 +26,9 @@ const App = () => {
       </AnimatedItem>
       <AnimatedItem>
         <Projects ProjectsReference={ProjectsRef}/> 
+      </AnimatedItem>
+      <AnimatedItem>
+        <Socials /> 
       </AnimatedItem>
       <AnimatedItem>
         <Contact ContactReference={ContactRef}/> 
