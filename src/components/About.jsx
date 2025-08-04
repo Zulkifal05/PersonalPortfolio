@@ -5,7 +5,7 @@ const About = ({AboutReference}) => {
   return (
     <div 
     ref={AboutReference}
-    className='flex items-center justify-center gap-13 [@media(max-width:768px)]:flex-col mt-10 w-full px-30'>
+    className='flex items-center justify-center gap-13 [@media(max-width:768px)]:flex-col mt-10 w-full px-30 pt-20'>
       <div>
         <img src={PROFILEPIC} alt="Profile Pic" className='rounded-[13%] h-[50vh] w-300 min-w-[250px] [@media(max-width:360px)]:h-[30vh]'/>
       </div>

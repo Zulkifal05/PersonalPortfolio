@@ -21,7 +21,7 @@ const Projects = ({ProjectsReference}) => {
   }
 
   return (
-    <div ref={ProjectsReference}  className='mt-13'>
+    <div ref={ProjectsReference}  className='mt-13 pt-20'>
       <h1 className='text-green-500 font-bold text-center text-4xl'>Projects</h1>
       <div className='flex items-center justify-center mt-5'>
         <select 

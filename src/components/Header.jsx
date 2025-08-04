@@ -24,7 +24,7 @@ const Header = ({
   }
 
   return (
-    <div className='flex items-center py-3 px-10 h-20'>
+    <div className='flex items-center py-3 px-10 h-20 fixed top-0 right-0 w-full bg-black'>
       <div className='grow-1'>
         <h1 className='text-green-500 font-bold text-3xl cursor-pointer'>Syed Zulkifal</h1>
       </div>

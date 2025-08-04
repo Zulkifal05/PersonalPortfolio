@@ -10,7 +10,7 @@ const Skills = ({SkillsReference}) => {
   return (
     <div 
     ref={SkillsReference}
-    className='w-full h-[63vh] mt-13 flex items-center justify-center flex-col'>
+    className='w-full h-[63vh] mt-13 flex items-center justify-center flex-col [@media(max-width:768px)]:pt-45 pt-20'>
     <h1 className='text-center font-bold text-green-500 text-4xl'>Skills</h1>
     <div className='flex items-center justify-center flex-wrap mt-9 gap-9'>
           <div className='flex flex-col items-center justify-center gap-3 outline-3 outline-green-500 min-w-[50px] w-30 p-3 rounded-lg'>
