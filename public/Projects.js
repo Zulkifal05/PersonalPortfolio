@@ -40,5 +40,11 @@ export const ProjectsArray = [
         Description : "Blogify is a Web App for Writing Blogs whose frontend is built in React JS & Appwrite is used as a backend service.",
         GithubLink : "https://github.com/Zulkifal05/BlogApp.git",
         Type : "React"
+    },
+    {
+        title : "RentIT",
+        Description : "RentIT is a MERN stack app which is marketplace for car owners and renters for renting car and interacting with each other.",
+        GithubLink : "https://github.com/Zulkifal05/RentIT.git",
+        Type : "MERN"
     }
 ]
